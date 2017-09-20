@@ -1,31 +1,33 @@
-[debug] [2017-09-20T03:37:01.815Z] ----------------------------------------------------------------------
-[debug] [2017-09-20T03:37:01.817Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
-[debug] [2017-09-20T03:37:01.818Z] CLI Version:   3.10.1
-[debug] [2017-09-20T03:37:01.818Z] Platform:      darwin
-[debug] [2017-09-20T03:37:01.818Z] Node Version:  v6.11.3
-[debug] [2017-09-20T03:37:01.818Z] Time:          Tue Sep 19 2017 23:37:01 GMT-0400 (EDT)
-[debug] [2017-09-20T03:37:01.818Z] ----------------------------------------------------------------------
+[debug] [2017-09-20T03:39:55.289Z] ----------------------------------------------------------------------
+[debug] [2017-09-20T03:39:55.292Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-20T03:39:55.293Z] CLI Version:   3.10.1
+[debug] [2017-09-20T03:39:55.293Z] Platform:      darwin
+[debug] [2017-09-20T03:39:55.293Z] Node Version:  v6.11.3
+[debug] [2017-09-20T03:39:55.294Z] Time:          Tue Sep 19 2017 23:39:55 GMT-0400 (EDT)
+[debug] [2017-09-20T03:39:55.294Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-09-20T03:37:01.830Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-09-20T03:37:01.830Z] > authorizing via signed-in user
-[debug] [2017-09-20T03:37:01.832Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-09-20T03:37:01.833Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/KNqOZ-1MIMDWsIbO_fffFCqKuhYpH7VihkOBXcSO1Yw',
+[debug] [2017-09-20T03:39:55.306Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-20T03:39:55.306Z] > authorizing via signed-in user
+[debug] [2017-09-20T03:39:55.308Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-20T03:39:55.309Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/KNqOZ-1MIMDWsIbO_fffFCqKuhYpH7VihkOBXcSO1Yw',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Tue Sep 19 2017 23:37:01 GMT-0400 (EDT)
-[debug] [2017-09-20T03:37:02.066Z] <<< HTTP RESPONSE 200
-[debug] [2017-09-20T03:37:02.080Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/testrepo-6f41c  
- Tue Sep 19 2017 23:37:02 GMT-0400 (EDT)
-[debug] [2017-09-20T03:37:02.582Z] <<< HTTP RESPONSE 200
-[debug] [2017-09-20T03:37:02.583Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/testrepo-6f41c/tokens  
- Tue Sep 19 2017 23:37:02 GMT-0400 (EDT)
-[debug] [2017-09-20T03:37:06.550Z] <<< HTTP RESPONSE 200
+ Tue Sep 19 2017 23:39:55 GMT-0400 (EDT)
+[debug] [2017-09-20T03:39:55.512Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-20T03:39:55.526Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/testrepo-6f41c  
+ Tue Sep 19 2017 23:39:55 GMT-0400 (EDT)
+[debug] [2017-09-20T03:39:55.889Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-20T03:39:55.890Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/testrepo-6f41c/tokens  
+ Tue Sep 19 2017 23:39:55 GMT-0400 (EDT)
+[debug] [2017-09-20T03:39:56.401Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'testrepo-6f41c'...
 [info] 
 [info] i  deploying hosting
 [info] i  hosting: preparing dist directory for upload...
-[debug] [2017-09-20T03:37:15.560Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/testrepo-6f41c/uploads/-KuSM61U-76Kz6U21Zdm?fileCount=83&message=  
- Tue Sep 19 2017 23:37:15 GMT-0400 (EDT)
+[debug] [2017-09-20T03:39:57.979Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/testrepo-6f41c/uploads/-KuSMigipsFQ8RwqYkIP?fileCount=83&message=  
+ Tue Sep 19 2017 23:39:57 GMT-0400 (EDT)
+[debug] [2017-09-20T03:41:07.508Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-20T03:41:07.509Z] [hosting] .tgz uploaded successfully, waiting for extraction
